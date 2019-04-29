@@ -5,7 +5,7 @@
 from __future__ import print_function
 import os
 import neat
-import visualize
+import examples.xor.visualize as visualize
 
 # 2-input XOR inputs and expected outputs.
 xor_inputs = [(0.0, 0.0), (0.0, 1.0), (1.0, 0.0), (1.0, 1.0)]
